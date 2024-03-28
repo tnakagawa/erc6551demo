@@ -113,14 +113,13 @@ node .\scripts\info.js
 `account`にERC20を`100.0 DTC`保持していることがわかります。
 
 ```sh
-signer1: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
-signer2: 0x70997970C51812dc3A010C7d01b50e0d17dc79C8
-account: 0x9A4d8D916Ea34345B55Fe04E6B0B5b18461B7223
-Create : true
-ERC721 : 0x70997970C51812dc3A010C7d01b50e0d17dc79C8 1n
-ERC20  : 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266 0.0
-ERC20  : 0x70997970C51812dc3A010C7d01b50e0d17dc79C8 0.0
-ERC20  : 0x9A4d8D916Ea34345B55Fe04E6B0B5b18461B7223 100.0
+        | address                                    | ERC20
+signer1 | 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266 | 0.0
+signer2 | 0x70997970C51812dc3A010C7d01b50e0d17dc79C8 | 0.0
+account | 0x9A4d8D916Ea34345B55Fe04E6B0B5b18461B7223 | 100.0
+----------------------------------------------------------------------
+Create  | true
+ERC721  | 0x70997970C51812dc3A010C7d01b50e0d17dc79C8 1n
 ```
 
 ### Execute
@@ -144,14 +143,13 @@ node .\scripts\info.js
 `account`から`signer1`へERC20を`1.0 DTC`移転していることがわかります。
 
 ```sh
-signer1: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
-signer2: 0x70997970C51812dc3A010C7d01b50e0d17dc79C8
-account: 0x9A4d8D916Ea34345B55Fe04E6B0B5b18461B7223
-Create : true
-ERC721 : 0x70997970C51812dc3A010C7d01b50e0d17dc79C8 1n
-ERC20  : 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266 1.0
-ERC20  : 0x70997970C51812dc3A010C7d01b50e0d17dc79C8 0.0
-ERC20  : 0x9A4d8D916Ea34345B55Fe04E6B0B5b18461B7223 99.0
+        | address                                    | ERC20
+signer1 | 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266 | 1.0
+signer2 | 0x70997970C51812dc3A010C7d01b50e0d17dc79C8 | 0.0
+account | 0x9A4d8D916Ea34345B55Fe04E6B0B5b18461B7223 | 99.0
+----------------------------------------------------------------------
+Create  | true
+ERC721  | 0x70997970C51812dc3A010C7d01b50e0d17dc79C8 1n
 ```
 
 **以上**

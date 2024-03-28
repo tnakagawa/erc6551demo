@@ -1,3 +1,4 @@
+const { ethers } = require("hardhat");
 const { loadFixture } = require("./loadFixture");
 
 async function main() {
